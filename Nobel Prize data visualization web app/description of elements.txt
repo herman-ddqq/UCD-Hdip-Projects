@@ -1,0 +1,17 @@
+Challenges:
+
+1) Laureates with multiple prizes (3 people) - had to implement counting and grouping in order to make sure their second prize is shown
+
+2) Motivation had some unreadable symbols like tags <>, special characters etc. Needed to decode it so it displays in a readable format
+
+3) Authors of literature had their art without quotation marks (it was replaced when did another task) so had to make sure their art displays in  ' ' single quotation marks
+
+4) Hemingway's art  when displayed was displayed like this:
+
+...The Old Man and the Sea,' and...
+
+ I moved comma after the single quotation mark so it displays like this: 
+
+...The Old Man and the Sea', and...
+
+4) Some laureates had mistakes in motivation like ' , (quote-comma) , had to change to , ' (comma-quote) format. 

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Top 5 Countries</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Countries in Nobel Prize Categories</h1>
+    <div id="categories"></div>
+    <div id="laureatesSection" style="display: none;">
+        <h1 id="tableTitle">Assignment 2 WebAppDev</h1>
+        <table id="laureatesTable">
+            <thead>
+                <tr>
+                    <th>
+                        ID 
+                        <button title="Sort by ID" onclick="sortLaureates('id', this)">▲▼</button>
+                    </th>
+                    <th>
+                        Name
+                        <button title="Sort by Surname" onclick="sortLaureates('name', this)">▲▼</button>
+                    </th>
+                    <th>Date Awarded</th> 
+                    <th>Category</th> 
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="laureatesBody"></tbody>
+        </table>
+    </div>
+    <div id="detailsModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <p id="modalbiographyText"></p>
+        </div>
+    </div>
+    <footer>
+    © Assignment 2 - Web App Development. Made by UCD students Herman Dolhyi and Sofia Hassan (group 4). 
+    <span>2024 All Rights Reserved.</span>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

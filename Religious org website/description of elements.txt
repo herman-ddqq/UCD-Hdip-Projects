@@ -1,0 +1,98 @@
+Assignment topic: #2. A website for a piece of media (Book, TV Series, Film, or Video Game). 
+A website about book (Bible)
+Theme: Life and Miracles of Jesus (based on Bible, original story and content from Bible.org)
+
+Requirements and description:
+1) Website has 5 required pages (index.html, gallery.html, 3 pages of choice (M1Water_Wine.html, M2Nobleman_son.html, M3Healing_Blind.html) + 3 additional pages (M4Walk_Water.html, M5Feeding_5000.html, M6Raising_Lazarus.html)
+
+2) Elements included
+▪ Links to both your own pages and external webpages. 
+- Links to my own pages: 1) navigation panel links - home to gallery - to other pages of Miracles 1-6; 2) links to 6 miracles on top of the table on the home page
+-Links to external pages: in footer ( Bible Gateway, Bible.org, Theopedia - Miracles of Jesus)
+
+▪ A navigation bar 
+-yes, located on the top of each page
+
+▪ At least one table used for an appropriate purpose 
+- one table located at the home page (The 37 Miracles of Jesus)
+
+▪ At least one list (ordered or unordered) 
+- ordered list in a table
+-unordered list in footer (external links)
+-unordered list in navigation panel
+
+▪ At least one local or embedded video 
+- used embedded video format, 7 videos totally, links to Youtube (on each page except gallery : 1 video on home page, 1 video on each of the Miracles 1-6 pages)
+
+▪ At least five CSS3 and four HTML5 specific elements 
+- HTML5 elements I used:
+1.	<nav>
+2.	<header>
+3.	<section>
+4.	<table>, <caption>, <thead>, <tbody>, <th>, <tr>, 		<td>
+5.	<meta>
+and other
+
+- 5 CSS3 elements:
+1.	Font Import  - @import url
+2.	Headings -  h1, h2 
+3.	Body Styles - body { ... }
+4.	Scrollable Content - .scrollable-content { ... }
+5.	Navigation Styles
+- nav { ... }
+- nav::after { ... }
+- nav ul { ... }
+- nav li { display: inline; }
+- nav a { ... }
+6.	Header Styles - header { ... }, header h1 { font-family: 'Cinzel', serif; }
+7.	Main Section
+- main { padding: 20px; }
+8.	Banner Styles
+- .banner { ... }
+- .banner-image { ... }
+- .banner::before, .banner::after { ... }
+9.	Table Styles
+- table { ... }
+- th, td { ... }
+10.	Section Styles
+- section { text-align: center; margin-top: 20px; }
+11.	Footer Styles
+- footer { ... }
+- Styles for the footer, including text alignment, padding, background color, and positioning.
+12.	Gallery Styles
+- .gallery { ... }
+- .gallery img { ... }
+- .gallery-item { ... }
+- .gallery-item p { ... }
+
+▪ Make use of the CSS positional properties (e.g. display, position) 
+Yes, used the following:
+	1.	nav
+	2.	nav::after (pseudo-element)
+	3.	.banner
+	4.	.banner::before (pseudo-element)
+	5.	.banner::after (pseudo-element)
+	6.	table
+	7.	table::before (pseudo-element)
+	8.	.gallery-item
+	9.	.gallery-item p
+
+▪ Make use of both inline and block elements 
+- Block Elements:
+1.	<nav>
+2.	<header>
+3.	<section>
+4.	<h1>
+5.	<table>
+6.	<p>
+
+- Inline Elements:
+1.	<li>
+2.	<a> 
+
+
+*Going beyond the parts of HTML and CSS described in the lectures and practical classes to explore features of HTML and CSS that make a website responsive.
+Used the following:
+- pseudo-elements (::after and ::before)
+- responsive gallery
+-imported fonts "Good Vibes" from Google

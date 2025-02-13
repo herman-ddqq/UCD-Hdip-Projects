@@ -1,0 +1,200 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: #2F2F2F;
+    background-color: floralwhite;
+}
+
+h1 {
+    text-align: center;
+    color: royalblue;
+    margin-top: 20px;
+}
+
+#categories {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: aliceblue;
+    border: none; 
+    border-radius: 8px;
+}
+
+.category-group {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: auto;   
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.category-item {
+    padding: 15px; 
+    background-color: aliceblue; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.category-item h3 {
+    margin: 0; 
+}
+
+.category-item ol {
+    padding-left: 0; 
+    margin: 0;
+    list-style-position: inside; 
+}
+
+.category-item ol li {
+    margin-bottom: -13px; 
+    padding: 10px; 
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.category-item button {
+    margin-top: 5px; 
+    margin-left: 26px; 
+    background-color: royalblue;
+    color: white;
+    border: none;
+    padding: 5px 10px; 
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.category-item button:hover {
+    background-color: darkblue;
+}
+
+#laureatesSection {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: floralwhite;
+    border: none;
+    border-radius: 8px;
+}
+
+#laureatesTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+#laureatesTable th, #laureatesTable td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid royalblue;
+}
+
+#laureatesTable th:nth-child(1),
+#laureatesTable td:nth-child(1) {
+    color: #2F2F2F;
+}
+
+#laureatesTable th:nth-child(2),
+#laureatesTable td:nth-child(2) {
+    color: #2F2F2F;
+}
+
+#laureatesTable th:nth-child(3),
+#laureatesTable td:nth-child(3) {
+    color: #2F2F2F;
+}
+
+#laureatesTable th:nth-child(4),
+#laureatesTable td:nth-child(4) {
+    color: #2F2F2F;
+}
+
+#laureatesTable th:nth-child(5),
+#laureatesTable td:nth-child(5) {
+    color: #2F2F2F;
+}
+
+#laureatesTable th {
+    background-color: lightsteelblue;
+    color: blue;
+    font-weight: bold;
+}
+
+#laureatesTable td {
+    background-color: aliceblue;
+}
+
+#laureatesTable button {
+    background-color: royalblue;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#laureatesTable button:hover {
+    background-color: darkblue;
+}
+
+.modal {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); 
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; 
+}
+
+.modal-content {
+    background-color: floralwhite;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: auto;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content p {
+    font-size: 1.1em;
+    color: black;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: royalblue;
+}
+
+.close:hover {
+    color: darkblue;
+}
+
+th button[title]:hover::after {
+    content: attr(title);
+    position: absolute;
+    background-color: royalblue;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 0.8em;
+    white-space: nowrap;
+    transform: translate(-50%, -150%);
+    z-index: 1;
+}
+
+footer {
+    background-color: floralwhite; 
+    text-align: center;        
+    padding: 15px 0;          
+    font-size: 0.9em;          
+    color: #2F2F2F;               
+    margin-top: 20px;         
+    border-radius: 8px;        
+}
